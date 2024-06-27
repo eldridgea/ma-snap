@@ -8,15 +8,14 @@ body {
   display: flex;
   height: 100%;
 }
-.iframe-right {
-  overflow: hidden; /* Prevents scrolling in the iframe */
-  border: none;
-}
 .iframe-left {
   flex: 75; /* 75% width */
+  height: 100%;
 }
 .iframe-right {
-  flex: 25; /* 25% width */
+  flex: 25; /* 15% width */
+  overflow: hidden; /* Prevents scrolling in the iframe */
+  border: none;
 }
 button {
   background-color: '#3498db';
