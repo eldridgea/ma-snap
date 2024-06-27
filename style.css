@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+.iframe-container {
+  display: flex;
+  height: 100%;
+}
+.iframe-right {
+  overflow: hidden; /* Prevents scrolling in the iframe */
+  border: none;
+}
+.iframe-left {
+  flex: 75; /* 75% width */
+}
+.iframe-right {
+  flex: 25; /* 25% width */
+}
+button {
+  background-color: '#3498db';
+  width: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9999;
+  padding: '10px 10px';
+  color: '#fff';
+  border: 'none';
+  cursor: 'pointer';
+}
