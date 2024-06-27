@@ -12,6 +12,8 @@ Once it's available it's usable as a destination for audio. Clicking the stop bu
 ## Usage ## 
 To set this up for your installation, in [index.html](https://github.com/eldridgea/ma-snap/blob/main/index.html) you'll need to replace the `iframe-left` with the URL for your Music Assistant and `iframe-right` with the URL for your Snapclient (if you're running the Home Assistant integration, it'll be running on port `1780`).
 
+This is also set up as a [PWA](https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app) so has the option to be installed from supporting browsers/OSes.
+
 ## Screenshots ##
 
 ![Screenshot_20240627_003213](https://github.com/eldridgea/ma-snap/assets/5951110/02d3c19d-96b9-4218-b63e-54ea40e8868e)
