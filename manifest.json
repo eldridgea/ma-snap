@@ -1,0 +1,12 @@
+{
+  "name": "Music",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "start_url": "https://music.naphos.com",
+      "display": "fullscreen"
+    }
+  ]
+}
