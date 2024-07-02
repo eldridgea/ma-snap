@@ -1,9 +1,9 @@
 # Music Assistant Snapclient #
 
 [Music Assistant](https://music-assistant.io/) can make use of [Snapcast](https://mjaggard.github.io/snapcast/) to stream to devices. It also has a web client that Music Assistant makes available if enabled.
-Using this you can stream your library to your computer, or add your computer as a spekaer without installing software.
-This is a small page that iframes the Music Assistant and Snapclient interface into once screen with the Snapclient section being hideable by clicking the gray bar.
-If accesed form a mobile device, this won't display at all (but will load in the background).
+Using this you can stream your library to your computer, or add your computer as a speaker without installing software.
+This is a small page that iframes the Music Assistant and Snapclient interface into one screen with the Snapclient section being hideable by clicking the gray bar.
+If accessed from a mobile device, this won't display at all (but will load in the background).
 
 ## Snapclient ##
 When you pop out the Snapclient section, clicking the Play icon in the upper right will register it as an available speaker. You can rename it as needed. 
